@@ -44,6 +44,8 @@
 
 1. 入力された検索条件を用いて書籍一覧APIを呼び出す。
 2. 取得したデータを画面に表示する。
+3. 【検索結果が0件の場合】
+   1. リストを表示せず、代わりに「検索結果は0件です」を表示する。
 
 ### 追加ボタン押下時
 
@@ -55,6 +57,6 @@
 
 ## 使用API
 
-[書籍一覧(全件取得)](https://bookmanagementapi.docs.apiary.io/#reference/0/1/0)
+[書籍一覧 / 全件取得](https://bookmanagementapi.docs.apiary.io/#reference/0/1/0)
 
-[書籍一覧(条件を指定して書籍を検索)](https://bookmanagementapi.docs.apiary.io/#reference/0/1/1)
+[書籍一覧 / 条件を指定して書籍を検索](https://bookmanagementapi.docs.apiary.io/#reference/0/1/1)

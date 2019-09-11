@@ -1,4 +1,4 @@
-site_name: 書籍管理 画面設計
+site_name: 書籍管理アプリケーション 外部設計
 theme: material
 extra_css:
     - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
@@ -11,8 +11,10 @@ extra:
       code: "Consolas"
 pages:
     - HOME: index.md
-    - ログイン画面: login.md
-    - 書籍一覧画面: list.md
-    - 書籍登録画面: register.md
-    - 書籍詳細画面: detail.md
-    - 書籍編集画面: edit.md
+    - 画面遷移: screen-list.md
+    - 画面設計: 
+        - ログイン画面: login.md
+        - 書籍一覧画面: list.md
+        - 書籍登録画面: register.md
+        - 書籍詳細画面: detail.md
+        - 書籍編集画面: edit.md

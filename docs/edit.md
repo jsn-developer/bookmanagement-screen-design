@@ -52,7 +52,7 @@
 4. メッセージ「登録に成功しました。」を表示する。
 5. [書籍詳細画面](detail.md)に遷移する。
 
-### 使用API
+## 使用API
 
 [書籍情報 / 書籍情報取得](https://bookmanagementapi.docs.apiary.io/#reference/0/4/0)
 

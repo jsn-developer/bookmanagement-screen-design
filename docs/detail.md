@@ -53,7 +53,7 @@
 4. [書籍一覧画面](list.md)に遷移する。
 
 
-### 使用API
+## 使用API
 
 [書籍情報 / 書籍情報取得](https://bookmanagementapi.docs.apiary.io/#reference/0/4/0)
 

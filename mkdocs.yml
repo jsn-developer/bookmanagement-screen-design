@@ -11,7 +11,7 @@ extra:
       code: "Consolas"
 pages:
     - HOME: index.md
-    - 画面遷移: screen-list.md
+    - 画面一覧: screen-list.md
     - 画面設計: 
         - ログイン画面: login.md
         - 書籍一覧画面: list.md

@@ -1,4 +1,4 @@
-site_name: 書籍管理アプリケーション 外部設計
+site_name: 書籍管理アプリケーション
 theme:
   name: 'material'
   language: 'ja'
@@ -13,7 +13,7 @@ extra:
     code: "Consolas"
   search:
     language: 'ja'
-pages:
+nav:
   - HOME: index.md
   - 画面一覧: screen-list.md
   - 画面遷移図: screen-flow.md

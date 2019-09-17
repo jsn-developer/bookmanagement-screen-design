@@ -1,20 +1,25 @@
 site_name: 書籍管理アプリケーション 外部設計
-theme: material
+theme:
+  name: 'material'
+  language: 'ja'
 extra_css:
-    - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
-    - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+  - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+  - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
 markdown_extensions:
-    - admonition
+  - admonition
 extra:
   font:
-      text: "Noto Sans JP"
-      code: "Consolas"
+    text: "Noto Sans JP"
+    code: "Consolas"
+  search:
+    language: 'ja'
 pages:
-    - HOME: index.md
-    - 画面一覧: screen-list.md
-    - 画面設計: 
-        - ログイン画面: login.md
-        - 書籍一覧画面: list.md
-        - 書籍登録画面: register.md
-        - 書籍詳細画面: detail.md
-        - 書籍編集画面: edit.md
+  - HOME: index.md
+  - 画面一覧: screen-list.md
+  - 画面遷移図: screen-flow.md
+  - 画面設計書: 
+    - ログイン画面: login.md
+    - 書籍一覧画面: list.md
+    - 書籍登録画面: register.md
+    - 書籍詳細画面: detail.md
+    - 書籍編集画面: edit.md

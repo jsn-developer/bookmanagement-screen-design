@@ -36,7 +36,7 @@
     
     
       
-        <title>書籍登録画面 - 書籍管理アプリケーション 外部設計</title>
+        <title>画面遷移図 - 書籍管理アプリケーション 外部設計</title>
       
     
     
@@ -105,7 +105,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                書籍登録画面
+                画面遷移図
               
             </span>
           
@@ -196,11 +196,20 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../screen-flow/" title="画面遷移図" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="画面遷移図" class="md-nav__link md-nav__link--active">
       画面遷移図
     </a>
+    
   </li>
 
     
@@ -208,12 +217,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
       画面設計書
@@ -253,104 +260,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        書籍登録画面
-      </label>
-    
-    <a href="./" title="書籍登録画面" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../register/" title="書籍登録画面" class="md-nav__link">
       書籍登録画面
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">目次</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    概要
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    画面イメージ
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    画面項目
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    アクション
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    初期表示時
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    戻るボタン押下時
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    登録ボタン押下時
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api" class="md-nav__link">
-    使用API
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -400,77 +314,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">目次</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    概要
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    画面イメージ
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    画面項目
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    アクション
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    初期表示時
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    戻るボタン押下時
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    登録ボタン押下時
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api" class="md-nav__link">
-    使用API
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -482,119 +325,9 @@
               
                 
                 
-                <h1 id="_1">書籍登録画面</h1>
-<h2 id="_2">概要</h2>
-<p>書籍の新規登録を行う。</p>
-<h2 id="_3">画面イメージ</h2>
-<p><img alt="登録画面" src="../images/screen/register.png" /></p>
-<h2 id="_4">画面項目</h2>
-<table>
-<thead>
-<tr>
-<th align="left">項目名</th>
-<th align="left">タイプ</th>
-<th align="left">取得元/保存先</th>
-<th align="left">備考</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">タイトル</td>
-<td align="left">テキスト</td>
-<td align="left">-</td>
-<td align="left">-</td>
-</tr>
-<tr>
-<td align="left">著者</td>
-<td align="left">テキスト</td>
-<td align="left">-</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">出版社</td>
-<td align="left">テキスト</td>
-<td align="left">出版社取得API</td>
-<td align="left">-</td>
-</tr>
-<tr>
-<td align="left">価格</td>
-<td align="left">テキスト</td>
-<td align="left">-</td>
-<td align="left">-</td>
-</tr>
-<tr>
-<td align="left">購入日</td>
-<td align="left">テキスト</td>
-<td align="left">-</td>
-<td align="left">-</td>
-</tr>
-<tr>
-<td align="left">書籍管理部署</td>
-<td align="left">ドロップダウン</td>
-<td align="left">部署情報取得API</td>
-<td align="left">-</td>
-</tr>
-<tr>
-<td align="left">更新日</td>
-<td align="left">ラベル</td>
-<td align="left">当日日付</td>
-<td align="left">-</td>
-</tr>
-<tr>
-<td align="left">更新者</td>
-<td align="left">ラベル</td>
-<td align="left">ログイン情報.ユーザ名</td>
-<td align="left">-</td>
-</tr>
-<tr>
-<td align="left">更新者部署</td>
-<td align="left">ラベル</td>
-<td align="left">ログイン情報.ユーザ部署名</td>
-<td align="left">-</td>
-</tr>
-<tr>
-<td align="left">戻る</td>
-<td align="left">ボタン</td>
-<td align="left">-</td>
-<td align="left">-</td>
-</tr>
-<tr>
-<td align="left">登録</td>
-<td align="left">ボタン</td>
-<td align="left">-</td>
-<td align="left">-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="_5">アクション</h2>
-<h3 id="_6">初期表示時</h3>
-<ol>
-<li>出版社取得APIをコールし、取得した出版社の情報を出版社ドロップダウンに表示する。</li>
-<li>部署情報取得APIをコールし、取得した部署の情報を書籍管理部署APIに表示する。</li>
-<li>セッションからログインユーザ情報を取得し、画面の各項目に表示する。</li>
-</ol>
-<h3 id="_7">戻るボタン押下時</h3>
-<ol>
-<li><a href="../list/">書籍一覧画面</a>に遷移する。</li>
-</ol>
-<h3 id="_8">登録ボタン押下時</h3>
-<ol>
-<li>入力チェックを実施する</li>
-<li>【入力エラーがある場合】</li>
-<li>エラーの内容を画面に表示し、以降のイベント処理を中断する。</li>
-<li>確認ダイアログを表示する。「登録します。よろしいですか？」</li>
-<li>【「はい」以外が選択された場合】</li>
-<li>以降のイベント処理を中断する。</li>
-<li>画面の入力項目から書籍登録APIを呼び出し、登録処理を行う。</li>
-<li>【APIのエラーが返却された場合】</li>
-<li>メッセージ「サーバにてエラーが発生しました。」を表示し、以降のイベント処理を中断する。</li>
-<li>メッセージ「登録に成功しました。」を表示する。</li>
-<li><a href="../detail/">書籍詳細画面</a>に遷移する。</li>
-</ol>
-<h2 id="api">使用API</h2>
-<p><a href="https://bookmanagementapi.docs.apiary.io/#reference/0/4/1">書籍情報API / 書籍の登録または更新)</a></p>
-<p><a href="https://bookmanagementapi.docs.apiary.io/#reference/0/0">出版社取得 / 出版社一覧取得</a></p>
-<p><a href="https://bookmanagementapi.docs.apiary.io/#reference/0/3/0">部署情報取得 / 部署一覧取得</a></p>
+                <h1 id="_1">画面遷移図</h1>
+<p><img alt="画面遷移" src="../images/screen-flow.png" /></p>
+<p><a href="https://github.com/hirokidaichi/guiflow/releases/tag/v_0.1.1">powered by guiflow</a></p>
                 
                   
                 
@@ -615,7 +348,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../list/" title="書籍一覧画面" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../screen-list/" title="画面一覧" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -624,19 +357,19 @@
                 <span class="md-footer-nav__direction">
                   前
                 </span>
-                書籍一覧画面
+                画面一覧
               </span>
             </div>
           </a>
         
         
-          <a href="../detail/" title="書籍詳細画面" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../login/" title="ログイン画面" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   次
                 </span>
-                書籍詳細画面
+                ログイン画面
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
